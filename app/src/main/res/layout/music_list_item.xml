@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+   >
+<LinearLayout
+
+    android:background="#fff"
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/music_list_item_add"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/musicadd" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_list_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="会有那么一天"
+            android:textColor="#222"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/music_list_item_singer"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="巴图"
+            android:textColor="#605a5a"
+            android:textSize="12sp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_marginLeft="5dp"
+    android:orientation="horizontal"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/musicshow"
+        android:gravity="center"
+        android:text="HQ"
+        android:textColor="#0c13f9" />
+    <TextView
+
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/musicshow"
+        android:gravity="center"
+        android:text="MV"
+        android:textColor="#0c13f9" />
+</LinearLayout>
+    <ImageView
+        android:id="@+id/music_list_item_more"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/seach_item_more"
+        android:layout_width="35dp"
+        android:layout_height="25dp" />
+</LinearLayout>
+
+       <View
+         android:layout_marginLeft="60dp"
+           android:background="#e1dbdb"
+           android:layout_width="wrap_content"
+           android:layout_height="1dp"></View>
+
+</LinearLayout>

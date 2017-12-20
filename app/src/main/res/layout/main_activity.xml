@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+
+    >
+    <include layout="@layout/content_main" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.example.myapplication.view.LeafFallingView
+            android:id="@+id/leaf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+       android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/main_trialcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="申请试用期设置码"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="申请时间设置码"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="申请激活码"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="申请公司名设置码"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="申请二次开发码"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="最新的F3X虚拟机"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="申请时间设置码（2016-07-29 11：48：50）"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Visual Studio 2015 32位 运行环境"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="推荐的文本编辑器 EmEditor 8.06版本（1810-0303-6156-9188）"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="最新的 F系列打包工具"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="最新的 F系列在线升级工具"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/main_trialcode12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="2016年6日二次开发培训"
+            android:textColor="#FF4081"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33e6e3e3"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#0a89f7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/actionbar_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="今日签到"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="你已经累计签到1天,获得积分为" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0ca3ef"
+        android:textSize="30sp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/popupwindow_calendar_month"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#aa564b4b"
+                android:textSize="16sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#7cc5ce"></View>
+
+            <com.example.goog.calendar.KCalendar
+                android:visibility="gone"
+                android:id="@+id/popupwindow_calendar"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></com.example.goog.calendar.KCalendar>
+
+            <com.example.goog.calendar.CalendarSign
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+               ></com.example.goog.calendar.CalendarSign>
+            <!-- <Button
+                android:id="@+id/popupwindow_calendar_bt_enter"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bt_nobgd"
+                android:text="完成"
+                android:textColor="#aa564b4b"
+                android:textSize="16sp" /> -->
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

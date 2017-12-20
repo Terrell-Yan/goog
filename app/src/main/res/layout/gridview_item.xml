@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.example.goog.view.MyImageView
+
+            android:id="@+id/gridview_img"
+            android:layout_width="45dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/gridview_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#182ce6"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:id="@+id/gridview_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="#5e5f61"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/gridview_tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textColor="#222"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/gridview_iv2"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/gridview_iv3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fun"
+            android:visibility="gone"
+
+            />
+    </RelativeLayout>
+</LinearLayout>

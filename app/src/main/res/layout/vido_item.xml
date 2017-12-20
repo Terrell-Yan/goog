@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/vidofg_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+
+        <ImageView
+
+            android:id="@+id/vido_item_iv"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/vido_item_tv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#7e7c7c"
+            android:gravity="center"
+            android:text="第一滴血4"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/uvv_itv_player_play" />
+    </RelativeLayout>
+</LinearLayout>

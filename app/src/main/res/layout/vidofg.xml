@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+    <ScrollView
+        android:fillViewport="true"
+        android:id="@+id/vidoag_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/vidofg_re"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/vidofg_banner_img"
+                    android:src="@drawable/start"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp" />
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/uvv_itv_player_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <LinearLayout
+
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp">
+                    <ImageView
+                        android:src="@drawable/vido1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <TextView
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="同城"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp">
+                    <ImageView
+                        android:src="@drawable/vido2"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <TextView
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="小组"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp">
+                    <ImageView
+                        android:src="@drawable/paocha_caidan"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <TextView
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="达人"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp">
+                    <ImageView
+                        android:src="@drawable/baowen_caidan"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <TextView
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="专题"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="6dp"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="热门视频"/>
+                <android.support.v7.widget.RecyclerView
+
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/vidoag_recl"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include layout="@layout/content_main"></include>
+        <TextView
+            android:id="@+id/edit_but"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+android:background="@drawable/login_shape_editxt"
+            android:text="发布"
+            android:textColor="#e41212"
+            android:layout_width="70dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+<EditText
+    android:id="@+id/edit_et"
+    android:hint="请输入你想说的内容"
+    android:textColor="#000"
+    android:layout_marginTop="50dp"
+    android:textSize="15sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <View
+        android:background="#e2e2e2"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"></View>
+<RelativeLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gridview_iv2"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/linearLayout" />
+    <ImageView
+        android:id="@+id/edit_img"
+        android:src="@drawable/edit_img"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
+
+
+</LinearLayout>

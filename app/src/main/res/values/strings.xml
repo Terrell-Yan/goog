@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Motion</string>
+    <string name="action_settings">Settings</string>
+    <string name="viewFlipper_tv">能帮你跑的更快的瑜伽姿势</string>
+    <string name="viewFlipper_tv2">30天跑步机训练等你来挑战</string>
+    <string name="viewFlipper_tv3">除了跑步机还有8大有氧运动</string>
+    <string name="viewFlipper_tv4">学会喝水让你更健康</string>
+</resources>

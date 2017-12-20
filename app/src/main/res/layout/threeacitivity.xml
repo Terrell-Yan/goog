@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include layout="@layout/content_main"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/three_lin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="生成公司名称设置码"
+                android:textColor="@color/red2"
+                android:textSize="18sp" />
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/code_shape"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text="请输入提示码"
+                        android:textColor="#222"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#222" />
+
+                <EditText
+                    android:id="@+id/three_et"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/code_shape"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text="请输入公司名（不超过6个汉字或者12英文）"
+                        android:textColor="#222"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#222" />
+
+                <EditText
+                    android:id="@+id/three_et2"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/three_but"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_but"
+                    android:text="生成时间设置码" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:id="@+id/three_lin2"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:text="新公司设置码"
+                android:textColor="#222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/code_shape"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" >
+                    <TextView
+                        android:textSize="15sp"
+                        android:textColor="#222"
+                        android:gravity="center"
+                        android:layout_width="230dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@null"
+                        android:text="提示码" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#222" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/red2"
+                    android:gravity="center"
+                    android:id="@+id/three_et3"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/code_shape"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" >
+                    <TextView
+                        android:textSize="15sp"
+                        android:textColor="#222"
+                        android:gravity="center"
+                        android:layout_width="230dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@null"
+                        android:text="硬件号" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#222" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/red2"
+                    android:gravity="center"
+                    android:id="@+id/three_et4"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/code_shape"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center" >
+                    <TextView
+                        android:textSize="15sp"
+                        android:textColor="#222"
+                        android:gravity="center"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@null"
+                        android:text="设置码" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#222" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/red2"
+                    android:gravity="center"
+                    android:id="@+id/three_et5"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

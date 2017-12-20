@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/content_main"></include>
+    <ImageView
+        android:id="@+id/music_list_topimg"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/newmusic"
+        android:layout_width="match_parent"
+        android:layout_height="188dp" />
+    <android.support.v7.widget.RecyclerView
+        android:padding="10dp"
+        android:id="@+id/music_list_recy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

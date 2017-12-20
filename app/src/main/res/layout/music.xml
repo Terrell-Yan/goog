@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/musi_scrllview"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.example.goog.view.RippleView
+            android:id="@+id/musi_ri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/img_randomn"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_below="@+id/search_bar"
+                android:gravity="center"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/random" />
+        </com.example.goog.view.RippleView>
+
+        <com.example.goog.view.RippleView
+            android:id="@+id/musi_ri2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_ik"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_below="@+id/search_bar"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jk" />
+        </com.example.goog.view.RippleView>
+
+        <com.example.goog.view.RippleView
+            android:id="@+id/musi_ri3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_jk"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_below="@+id/img_randomn"
+                android:layout_marginTop="3dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rock"
+                android:transitionName="share_jk" />
+        </com.example.goog.view.RippleView>
+
+        <com.example.goog.view.RippleView
+            android:id="@+id/musi_ri4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_volkslied"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_below="@+id/img_rock"
+                android:layout_marginTop="3dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/volkslied"
+                android:transitionName="share_volkslied" />
+        </com.example.goog.view.RippleView>
+    </LinearLayout>
+
+</ScrollView>

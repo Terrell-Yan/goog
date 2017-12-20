@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orager"
+    android:orientation="vertical"
+    android:gravity="center"
+  >
+<include layout="@layout/content_main" android:id="@+id/inculde"></include>
+
+
+
+
+<ScrollView
+  android:layout_below="@+id/slideshowView"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/timg2"
+            android:id="@+id/img_url"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+             />
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="280dp"
+            android:padding="5dp"
+            android:layout_height="140dp"
+
+            android:src="@drawable/timg" />
+
+        <ImageView
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:src="@drawable/timg4" />
+    </LinearLayout>
+</ScrollView> <com.example.goog.view.SlideShowView
+    android:layout_below="@+id/inculde"
+    android:id="@+id/slideshowView"
+    android:layout_width="match_parent"
+    android:layout_height="168dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp" />
+
+
+</RelativeLayout>
